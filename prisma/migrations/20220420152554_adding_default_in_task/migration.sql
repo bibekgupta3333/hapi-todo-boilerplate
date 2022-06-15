@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "SubTask" ALTER COLUMN "status" SET DEFAULT E'PENDING';
+
+-- AlterTable
+ALTER TABLE "Task" ALTER COLUMN "status" SET DEFAULT E'PENDING';
